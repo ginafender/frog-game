@@ -5,8 +5,21 @@ window.addEventListener('load', function(){
     canvas.height = 720;
 
 
+    class InputHandler {
 
+    }
 
+    class Player {
+
+    }
+
+    class Background {
+
+    }
+
+    class displayStatusText {
+
+    }
 
 
 
