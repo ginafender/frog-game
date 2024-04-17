@@ -8,9 +8,9 @@ window.addEventListener('load', function(){
     class InputHandler {
         constructor(){
             this.keys = new Set();
-            document.addEventListener("keydown", function(e) {
-            // this.keys.add(e.key);
-            console.log("Key pressed: ", e.keyCode);
+            document.addEventListener("keydown", e => {
+            this.keys.add(e.key);
+            console.log("Key pressed: ", this.keys);
             });    
         }
     }
@@ -49,28 +49,5 @@ window.addEventListener('load', function(){
     }
 
     animate();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 
 });
